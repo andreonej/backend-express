@@ -34,4 +34,18 @@ This project is a full-stack JavaScript backend implementation focused on learni
    ```bash
    npm run dev
    ```
+
+## Environment Variables
+
+The project requires a `.env` file with the following variables:
+
+- `MONGO_URI`: MongoDB connection string
+- `JWT_SECRET`: Secret key for JWT token generation
+- `EMAIL_USER`: Email account username for Nodemailer
+- `EMAIL_PASS`: Email account password for Nodemailer
+- `EMAIL_HOST`: SMTP server host
+- `EMAIL_PORT`: SMTP server port
+- `FRONTEND_URL`: Comma-separated list of allowed frontend URLs for CORS
+
+Example `.env` file:
 This README.md provides a comprehensive overview of your project's features, technologies, and learning objectives. It's written in a professional format that clearly communicates the purpose and components of your backend system.
